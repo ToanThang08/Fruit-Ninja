@@ -6,6 +6,7 @@ public class Blade : MonoBehaviour
 {
     private Camera mainCamera;
     private Collider bladeCollider;
+    private TrailRenderer bladeTrail;
     private bool slicing;
 
     public Vector3 direction { get; private set; }
@@ -15,6 +16,7 @@ public class Blade : MonoBehaviour
     {
         mainCamera = Camera.main;
         bladeCollider = GetComponent<Collider>();
+        bladeTrail = GetComponentInChildren<TrailRenderer>();
     }
 
     private void OnEnable()
@@ -50,6 +52,8 @@ public class Blade : MonoBehaviour
 
         slicing = true;
         bladeCollider.enabled = true;
+        bladeTrail.enabled = true;
+        bladeTrail.Clear();
     }
 
     private void StopSlicing()

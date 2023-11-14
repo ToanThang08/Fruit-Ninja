@@ -10,19 +10,27 @@ PrefabInstance:
     - target: {fileID: 1161617981430751866, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 29779421efd4a2c42b88c08bc9634cd6, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d8cb8a2048c68c4896eb892c3cac0ad, type: 2}
     - target: {fileID: 2346376691040726089, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
       propertyPath: m_Name
-      value: Watermelon
+      value: Orange
       objectReference: {fileID: 0}
     - target: {fileID: 3572982373297545054, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 29779421efd4a2c42b88c08bc9634cd6, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d8cb8a2048c68c4896eb892c3cac0ad, type: 2}
     - target: {fileID: 3572982373297545054, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 776027a4e05852749992cff0f1375fbc, type: 2}
+      objectReference: {fileID: 2100000, guid: 96d1c8ec2e960cb44811c9b52cf9e1a9, type: 2}
+    - target: {fileID: 5114715610935962212, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d8cb8a2048c68c4896eb892c3cac0ad, type: 2}
+    - target: {fileID: 5114715610935962212, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96d1c8ec2e960cb44811c9b52cf9e1a9, type: 2}
     - target: {fileID: 5622760987058790715, guid: 6ff7cd2fdce9fd34699dfc40661792e9, type: 3}
       propertyPath: m_RootOrder
       value: 0
